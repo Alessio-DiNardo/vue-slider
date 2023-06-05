@@ -55,5 +55,9 @@ h2{
 div.thumbnail img{
     height: 120px;
     width: 100%;
+    filter: brightness(20%);
+}
 
+div.thumbnail img.active{
+    filter: brightness(150%);
 }
