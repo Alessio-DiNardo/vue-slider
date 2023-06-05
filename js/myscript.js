@@ -32,13 +32,13 @@ createApp({
     methods: {
         previousImage(){
             if( this.activeIndex === 0){
-                this.activeIndex = this.images.lenght - 1;
+                this.activeIndex = this.images.length - 1;
             } else {
                 this.activeIndex--;
             }
         },
         nextImage(){
-            if( this.activeIndex === this.images.lenght - 1){
+            if( this.activeIndex === this.images.length - 1){
                 this.activeIndex = 0;
             } else {
                 this.activeIndex++;
