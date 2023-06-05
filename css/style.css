@@ -5,13 +5,23 @@
 }
 
 div.container{
-    background-color: blue;
-    width: 800px;
+   
+    width: 60%;
+    max-width: 800px;
     height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 h1.title{
     text-align: center;
     padding: 2rem 0;
+}
+
+div.slide img{
+    width: 100%;
+    height: 600px;
 }
