@@ -35,6 +35,9 @@
         <div class="next" @click="nextImage()">
             <i class="fa-solid fa-chevron-right"></i> 
         </div>
+        <div class="thumbnail" v-for="image in images">
+            <img :src="images[activeIndex].image" alt="">
+        </div>
     </div>
 
     
