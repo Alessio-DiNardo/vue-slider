@@ -16,10 +16,12 @@
 
 <div id="app">
 
-    <h1 class="title">Carosello</h1>
+    <h1 class="title">
+        Carosello del più bello
+    </h1>
     <div class="container">
         <div class="slide">
-            <img src="./img/01.webp" alt="spiderman">
+            <img :src="images[activeIndex]" alt="spiderman">
         </div>
     </div>
 
